@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87522E581DF42C24001B14CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E571DF42C24001B14CC /* main.m */; };
+		87522E5B1DF42C24001B14CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E5A1DF42C24001B14CC /* AppDelegate.m */; };
+		87522E5E1DF42C24001B14CC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E5D1DF42C24001B14CC /* FirstViewController.m */; };
+		87522E611DF42C24001B14CC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E601DF42C24001B14CC /* SecondViewController.m */; };
+		87522E641DF42C24001B14CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87522E621DF42C24001B14CC /* Main.storyboard */; };
+		87522E661DF42C24001B14CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87522E651DF42C24001B14CC /* Assets.xcassets */; };
+		87522E691DF42C24001B14CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87522E671DF42C24001B14CC /* LaunchScreen.storyboard */; };
+		87522E741DF42C24001B14CC /* GenericElectricityCostGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E731DF42C24001B14CC /* GenericElectricityCostGeneratorTests.m */; };
+		87522E7F1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E7E1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87522E701DF42C24001B14CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87522E4B1DF42C24001B14CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87522E521DF42C24001B14CC;
+			remoteInfo = GenericElectricityCostGenerator;
+		};
+		87522E7B1DF42C24001B14CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87522E4B1DF42C24001B14CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87522E521DF42C24001B14CC;
+			remoteInfo = GenericElectricityCostGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87522E531DF42C24001B14CC /* GenericElectricityCostGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericElectricityCostGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87522E571DF42C24001B14CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87522E591DF42C24001B14CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87522E5A1DF42C24001B14CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87522E5C1DF42C24001B14CC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		87522E5D1DF42C24001B14CC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		87522E5F1DF42C24001B14CC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		87522E601DF42C24001B14CC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		87522E631DF42C24001B14CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87522E651DF42C24001B14CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87522E681DF42C24001B14CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87522E6A1DF42C24001B14CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87522E6F1DF42C24001B14CC /* GenericElectricityCostGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericElectricityCostGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87522E731DF42C24001B14CC /* GenericElectricityCostGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericElectricityCostGeneratorTests.m; sourceTree = "<group>"; };
+		87522E751DF42C24001B14CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87522E7A1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericElectricityCostGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87522E7E1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericElectricityCostGeneratorUITests.m; sourceTree = "<group>"; };
+		87522E801DF42C24001B14CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87522E501DF42C24001B14CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87522E6C1DF42C24001B14CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87522E771DF42C24001B14CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87522E4A1DF42C24001B14CC = {
+			isa = PBXGroup;
+			children = (
+				87522E551DF42C24001B14CC /* GenericElectricityCostGenerator */,
+				87522E721DF42C24001B14CC /* GenericElectricityCostGeneratorTests */,
+				87522E7D1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests */,
+				87522E541DF42C24001B14CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87522E541DF42C24001B14CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87522E531DF42C24001B14CC /* GenericElectricityCostGenerator.app */,
+				87522E6F1DF42C24001B14CC /* GenericElectricityCostGeneratorTests.xctest */,
+				87522E7A1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87522E551DF42C24001B14CC /* GenericElectricityCostGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				87522E591DF42C24001B14CC /* AppDelegate.h */,
+				87522E5A1DF42C24001B14CC /* AppDelegate.m */,
+				87522E5C1DF42C24001B14CC /* FirstViewController.h */,
+				87522E5D1DF42C24001B14CC /* FirstViewController.m */,
+				87522E5F1DF42C24001B14CC /* SecondViewController.h */,
+				87522E601DF42C24001B14CC /* SecondViewController.m */,
+				87522E621DF42C24001B14CC /* Main.storyboard */,
+				87522E651DF42C24001B14CC /* Assets.xcassets */,
+				87522E671DF42C24001B14CC /* LaunchScreen.storyboard */,
+				87522E6A1DF42C24001B14CC /* Info.plist */,
+				87522E561DF42C24001B14CC /* Supporting Files */,
+			);
+			path = GenericElectricityCostGenerator;
+			sourceTree = "<group>";
+		};
+		87522E561DF42C24001B14CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87522E571DF42C24001B14CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87522E721DF42C24001B14CC /* GenericElectricityCostGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				87522E731DF42C24001B14CC /* GenericElectricityCostGeneratorTests.m */,
+				87522E751DF42C24001B14CC /* Info.plist */,
+			);
+			path = GenericElectricityCostGeneratorTests;
+			sourceTree = "<group>";
+		};
+		87522E7D1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87522E7E1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests.m */,
+				87522E801DF42C24001B14CC /* Info.plist */,
+			);
+			path = GenericElectricityCostGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87522E521DF42C24001B14CC /* GenericElectricityCostGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87522E831DF42C24001B14CC /* Build configuration list for PBXNativeTarget "GenericElectricityCostGenerator" */;
+			buildPhases = (
+				87522E4F1DF42C24001B14CC /* Sources */,
+				87522E501DF42C24001B14CC /* Frameworks */,
+				87522E511DF42C24001B14CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenericElectricityCostGenerator;
+			productName = GenericElectricityCostGenerator;
+			productReference = 87522E531DF42C24001B14CC /* GenericElectricityCostGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87522E6E1DF42C24001B14CC /* GenericElectricityCostGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87522E861DF42C24001B14CC /* Build configuration list for PBXNativeTarget "GenericElectricityCostGeneratorTests" */;
+			buildPhases = (
+				87522E6B1DF42C24001B14CC /* Sources */,
+				87522E6C1DF42C24001B14CC /* Frameworks */,
+				87522E6D1DF42C24001B14CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87522E711DF42C24001B14CC /* PBXTargetDependency */,
+			);
+			name = GenericElectricityCostGeneratorTests;
+			productName = GenericElectricityCostGeneratorTests;
+			productReference = 87522E6F1DF42C24001B14CC /* GenericElectricityCostGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87522E791DF42C24001B14CC /* GenericElectricityCostGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87522E891DF42C24001B14CC /* Build configuration list for PBXNativeTarget "GenericElectricityCostGeneratorUITests" */;
+			buildPhases = (
+				87522E761DF42C24001B14CC /* Sources */,
+				87522E771DF42C24001B14CC /* Frameworks */,
+				87522E781DF42C24001B14CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87522E7C1DF42C24001B14CC /* PBXTargetDependency */,
+			);
+			name = GenericElectricityCostGeneratorUITests;
+			productName = GenericElectricityCostGeneratorUITests;
+			productReference = 87522E7A1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87522E4B1DF42C24001B14CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Firdous Ali";
+				TargetAttributes = {
+					87522E521DF42C24001B14CC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					87522E6E1DF42C24001B14CC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87522E521DF42C24001B14CC;
+					};
+					87522E791DF42C24001B14CC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87522E521DF42C24001B14CC;
+					};
+				};
+			};
+			buildConfigurationList = 87522E4E1DF42C24001B14CC /* Build configuration list for PBXProject "GenericElectricityCostGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87522E4A1DF42C24001B14CC;
+			productRefGroup = 87522E541DF42C24001B14CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87522E521DF42C24001B14CC /* GenericElectricityCostGenerator */,
+				87522E6E1DF42C24001B14CC /* GenericElectricityCostGeneratorTests */,
+				87522E791DF42C24001B14CC /* GenericElectricityCostGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87522E511DF42C24001B14CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87522E691DF42C24001B14CC /* LaunchScreen.storyboard in Resources */,
+				87522E661DF42C24001B14CC /* Assets.xcassets in Resources */,
+				87522E641DF42C24001B14CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87522E6D1DF42C24001B14CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87522E781DF42C24001B14CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87522E4F1DF42C24001B14CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87522E611DF42C24001B14CC /* SecondViewController.m in Sources */,
+				87522E5B1DF42C24001B14CC /* AppDelegate.m in Sources */,
+				87522E5E1DF42C24001B14CC /* FirstViewController.m in Sources */,
+				87522E581DF42C24001B14CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87522E6B1DF42C24001B14CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87522E741DF42C24001B14CC /* GenericElectricityCostGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87522E761DF42C24001B14CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87522E7F1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87522E711DF42C24001B14CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87522E521DF42C24001B14CC /* GenericElectricityCostGenerator */;
+			targetProxy = 87522E701DF42C24001B14CC /* PBXContainerItemProxy */;
+		};
+		87522E7C1DF42C24001B14CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87522E521DF42C24001B14CC /* GenericElectricityCostGenerator */;
+			targetProxy = 87522E7B1DF42C24001B14CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87522E621DF42C24001B14CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87522E631DF42C24001B14CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87522E671DF42C24001B14CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87522E681DF42C24001B14CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87522E811DF42C24001B14CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87522E821DF42C24001B14CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87522E841DF42C24001B14CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GenericElectricityCostGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atech.salesclient.GenericElectricityCostGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87522E851DF42C24001B14CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GenericElectricityCostGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atech.salesclient.GenericElectricityCostGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87522E871DF42C24001B14CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GenericElectricityCostGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atech.salesclient.GenericElectricityCostGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenericElectricityCostGenerator.app/GenericElectricityCostGenerator";
+			};
+			name = Debug;
+		};
+		87522E881DF42C24001B14CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GenericElectricityCostGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atech.salesclient.GenericElectricityCostGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenericElectricityCostGenerator.app/GenericElectricityCostGenerator";
+			};
+			name = Release;
+		};
+		87522E8A1DF42C24001B14CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GenericElectricityCostGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atech.salesclient.GenericElectricityCostGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GenericElectricityCostGenerator;
+			};
+			name = Debug;
+		};
+		87522E8B1DF42C24001B14CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GenericElectricityCostGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atech.salesclient.GenericElectricityCostGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GenericElectricityCostGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87522E4E1DF42C24001B14CC /* Build configuration list for PBXProject "GenericElectricityCostGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87522E811DF42C24001B14CC /* Debug */,
+				87522E821DF42C24001B14CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87522E831DF42C24001B14CC /* Build configuration list for PBXNativeTarget "GenericElectricityCostGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87522E841DF42C24001B14CC /* Debug */,
+				87522E851DF42C24001B14CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87522E861DF42C24001B14CC /* Build configuration list for PBXNativeTarget "GenericElectricityCostGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87522E871DF42C24001B14CC /* Debug */,
+				87522E881DF42C24001B14CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87522E891DF42C24001B14CC /* Build configuration list for PBXNativeTarget "GenericElectricityCostGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87522E8A1DF42C24001B14CC /* Debug */,
+				87522E8B1DF42C24001B14CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87522E4B1DF42C24001B14CC /* Project object */;
+}
