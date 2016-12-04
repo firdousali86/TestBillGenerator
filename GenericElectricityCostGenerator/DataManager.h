@@ -10,6 +10,6 @@
 
 @interface DataManager : NSObject
 
--(NSArray*)getInitialCategoryData;
++(NSArray*)getCategoryData;
 
 @end

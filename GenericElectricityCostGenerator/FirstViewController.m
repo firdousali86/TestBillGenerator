@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "BillingManager.h"
 
 @interface FirstViewController ()
 
@@ -27,5 +28,7 @@
 
 
 - (IBAction)calculateCostAction:(id)sender {
+    NSNumber *totalPoint = [BillingManager calculatCost:@([_meterReadingField.text floatValue])];
+    [_totalpoints setText:[totalPoint stringValue]];
 }
 @end

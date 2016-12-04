@@ -11,7 +11,7 @@
 
 @implementation DataManager
 
--(NSArray*)getInitialCategoryData{
++(NSArray*)getCategoryData{
     
     NSArray *data = [[UserDefaultsHelper getInstance] getValue:@"categoryData" andDefault:nil];
     

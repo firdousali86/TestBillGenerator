@@ -134,24 +134,22 @@
 		87522E551DF42C24001B14CC /* GenericElectricityCostGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				87B431B41DF43AEF00E7094A /* Controllers */,
+				87522E5C1DF42C24001B14CC /* FirstViewController.h */,
+				87522E5D1DF42C24001B14CC /* FirstViewController.m */,
+				87522E5F1DF42C24001B14CC /* SecondViewController.h */,
+				87522E601DF42C24001B14CC /* SecondViewController.m */,
+				87B431B31DF43ADC00E7094A /* Managers */,
 				87522EA91DF4343F001B14CC /* Controls */,
 				87522EA51DF431AB001B14CC /* Entities */,
 				87522EA41DF4311F001B14CC /* Helpers */,
 				87522E951DF4310A001B14CC /* Externallib */,
 				87522E591DF42C24001B14CC /* AppDelegate.h */,
 				87522E5A1DF42C24001B14CC /* AppDelegate.m */,
-				87522E5C1DF42C24001B14CC /* FirstViewController.h */,
-				87522E5D1DF42C24001B14CC /* FirstViewController.m */,
-				87522E5F1DF42C24001B14CC /* SecondViewController.h */,
-				87522E601DF42C24001B14CC /* SecondViewController.m */,
-				87522E8C1DF42E4E001B14CC /* BillingManager.h */,
-				87522E8D1DF42E4E001B14CC /* BillingManager.m */,
-				87522EAF1DF437DD001B14CC /* DataManager.h */,
-				87522EB01DF437DD001B14CC /* DataManager.m */,
-				87522E621DF42C24001B14CC /* Main.storyboard */,
 				87522E651DF42C24001B14CC /* Assets.xcassets */,
 				87522E671DF42C24001B14CC /* LaunchScreen.storyboard */,
 				87522E6A1DF42C24001B14CC /* Info.plist */,
+				87522E621DF42C24001B14CC /* Main.storyboard */,
 				87522E561DF42C24001B14CC /* Supporting Files */,
 			);
 			path = GenericElectricityCostGenerator;
@@ -233,6 +231,24 @@
 				87522EAC1DF43464001B14CC /* CategoryTableCell.xib */,
 			);
 			name = Controls;
+			sourceTree = "<group>";
+		};
+		87B431B31DF43ADC00E7094A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				87522E8C1DF42E4E001B14CC /* BillingManager.h */,
+				87522E8D1DF42E4E001B14CC /* BillingManager.m */,
+				87522EAF1DF437DD001B14CC /* DataManager.h */,
+				87522EB01DF437DD001B14CC /* DataManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		87B431B41DF43AEF00E7094A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -613,6 +629,7 @@
 				87522E851DF42C24001B14CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87522E861DF42C24001B14CC /* Build configuration list for PBXNativeTarget "GenericElectricityCostGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -621,6 +638,7 @@
 				87522E881DF42C24001B14CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87522E891DF42C24001B14CC /* Build configuration list for PBXNativeTarget "GenericElectricityCostGeneratorUITests" */ = {
 			isa = XCConfigurationList;
@@ -629,6 +647,7 @@
 				87522E8B1DF42C24001B14CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

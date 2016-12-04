@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface BillingManager : NSObject
 
-
++(NSNumber*)calculatCost:(NSNumber*)reading;
 
 @end

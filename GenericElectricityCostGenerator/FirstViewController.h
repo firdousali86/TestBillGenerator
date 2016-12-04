@@ -12,6 +12,8 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *meterReadingField;
 @property (weak, nonatomic) IBOutlet UITextField *customerNumberField;
+@property (weak, nonatomic) IBOutlet UIButton *calculatbtn;
+@property (weak, nonatomic) IBOutlet UILabel *totalpoints;
 
 - (IBAction)calculateCostAction:(id)sender;
 
