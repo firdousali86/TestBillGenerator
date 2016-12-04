@@ -17,6 +17,14 @@
 		87522E741DF42C24001B14CC /* GenericElectricityCostGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E731DF42C24001B14CC /* GenericElectricityCostGeneratorTests.m */; };
 		87522E7F1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E7E1DF42C24001B14CC /* GenericElectricityCostGeneratorUITests.m */; };
 		87522E8E1DF42E4E001B14CC /* BillingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E8D1DF42E4E001B14CC /* BillingManager.m */; };
+		87522E941DF4300A001B14CC /* UserDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E931DF4300A001B14CC /* UserDefaultsHelper.m */; };
+		87522EA01DF4310A001B14CC /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E991DF4310A001B14CC /* RNCryptor.m */; };
+		87522EA11DF4310A001B14CC /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E9B1DF4310A001B14CC /* RNCryptorEngine.m */; };
+		87522EA21DF4310A001B14CC /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E9D1DF4310A001B14CC /* RNDecryptor.m */; };
+		87522EA31DF4310A001B14CC /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522E9F1DF4310A001B14CC /* RNEncryptor.m */; };
+		87522EA81DF431C5001B14CC /* CategoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522EA71DF431C5001B14CC /* CategoryObject.m */; };
+		87522EAD1DF43464001B14CC /* CategoryTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522EAB1DF43464001B14CC /* CategoryTableCell.m */; };
+		87522EAE1DF43464001B14CC /* CategoryTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87522EAC1DF43464001B14CC /* CategoryTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +65,22 @@
 		87522E801DF42C24001B14CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87522E8C1DF42E4E001B14CC /* BillingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingManager.h; sourceTree = "<group>"; };
 		87522E8D1DF42E4E001B14CC /* BillingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillingManager.m; sourceTree = "<group>"; };
+		87522E921DF4300A001B14CC /* UserDefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHelper.h; sourceTree = "<group>"; };
+		87522E931DF4300A001B14CC /* UserDefaultsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsHelper.m; sourceTree = "<group>"; };
+		87522E971DF4310A001B14CC /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		87522E981DF4310A001B14CC /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		87522E991DF4310A001B14CC /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		87522E9A1DF4310A001B14CC /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		87522E9B1DF4310A001B14CC /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		87522E9C1DF4310A001B14CC /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		87522E9D1DF4310A001B14CC /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		87522E9E1DF4310A001B14CC /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		87522E9F1DF4310A001B14CC /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		87522EA61DF431C5001B14CC /* CategoryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryObject.h; sourceTree = "<group>"; };
+		87522EA71DF431C5001B14CC /* CategoryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryObject.m; sourceTree = "<group>"; };
+		87522EAA1DF43464001B14CC /* CategoryTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableCell.h; sourceTree = "<group>"; };
+		87522EAB1DF43464001B14CC /* CategoryTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableCell.m; sourceTree = "<group>"; };
+		87522EAC1DF43464001B14CC /* CategoryTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +131,10 @@
 		87522E551DF42C24001B14CC /* GenericElectricityCostGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				87522EA91DF4343F001B14CC /* Controls */,
+				87522EA51DF431AB001B14CC /* Entities */,
+				87522EA41DF4311F001B14CC /* Helpers */,
+				87522E951DF4310A001B14CC /* Externallib */,
 				87522E591DF42C24001B14CC /* AppDelegate.h */,
 				87522E5A1DF42C24001B14CC /* AppDelegate.m */,
 				87522E5C1DF42C24001B14CC /* FirstViewController.h */,
@@ -148,6 +176,58 @@
 				87522E801DF42C24001B14CC /* Info.plist */,
 			);
 			path = GenericElectricityCostGeneratorUITests;
+			sourceTree = "<group>";
+		};
+		87522E951DF4310A001B14CC /* Externallib */ = {
+			isa = PBXGroup;
+			children = (
+				87522E961DF4310A001B14CC /* RNCryptor */,
+			);
+			path = Externallib;
+			sourceTree = "<group>";
+		};
+		87522E961DF4310A001B14CC /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				87522E971DF4310A001B14CC /* RNCryptor+Private.h */,
+				87522E981DF4310A001B14CC /* RNCryptor.h */,
+				87522E991DF4310A001B14CC /* RNCryptor.m */,
+				87522E9A1DF4310A001B14CC /* RNCryptorEngine.h */,
+				87522E9B1DF4310A001B14CC /* RNCryptorEngine.m */,
+				87522E9C1DF4310A001B14CC /* RNDecryptor.h */,
+				87522E9D1DF4310A001B14CC /* RNDecryptor.m */,
+				87522E9E1DF4310A001B14CC /* RNEncryptor.h */,
+				87522E9F1DF4310A001B14CC /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		87522EA41DF4311F001B14CC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				87522E921DF4300A001B14CC /* UserDefaultsHelper.h */,
+				87522E931DF4300A001B14CC /* UserDefaultsHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		87522EA51DF431AB001B14CC /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				87522EA61DF431C5001B14CC /* CategoryObject.h */,
+				87522EA71DF431C5001B14CC /* CategoryObject.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		87522EA91DF4343F001B14CC /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				87522EAA1DF43464001B14CC /* CategoryTableCell.h */,
+				87522EAB1DF43464001B14CC /* CategoryTableCell.m */,
+				87522EAC1DF43464001B14CC /* CategoryTableCell.xib */,
+			);
+			name = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87522EAE1DF43464001B14CC /* CategoryTableCell.xib in Resources */,
 				87522E691DF42C24001B14CC /* LaunchScreen.storyboard in Resources */,
 				87522E661DF42C24001B14CC /* Assets.xcassets in Resources */,
 				87522E641DF42C24001B14CC /* Main.storyboard in Resources */,
@@ -285,8 +366,15 @@
 			files = (
 				87522E611DF42C24001B14CC /* SecondViewController.m in Sources */,
 				87522E5B1DF42C24001B14CC /* AppDelegate.m in Sources */,
+				87522EA31DF4310A001B14CC /* RNEncryptor.m in Sources */,
+				87522E941DF4300A001B14CC /* UserDefaultsHelper.m in Sources */,
+				87522EA01DF4310A001B14CC /* RNCryptor.m in Sources */,
+				87522EA81DF431C5001B14CC /* CategoryObject.m in Sources */,
 				87522E5E1DF42C24001B14CC /* FirstViewController.m in Sources */,
+				87522EA11DF4310A001B14CC /* RNCryptorEngine.m in Sources */,
+				87522EAD1DF43464001B14CC /* CategoryTableCell.m in Sources */,
 				87522E581DF42C24001B14CC /* main.m in Sources */,
+				87522EA21DF4310A001B14CC /* RNDecryptor.m in Sources */,
 				87522E8E1DF42E4E001B14CC /* BillingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

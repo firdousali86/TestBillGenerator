@@ -10,4 +10,29 @@
 
 @implementation BillingManager
 
+-(NSDictionary*)getInitialCategoryData{
+    NSDictionary *data = @{
+                           @"Category A":@{
+                                   @"categoryName": @"Category A",
+                                   @"pointPerMeter": @(25),
+                                   @"startAt":@(0),
+                                   @"endAt":@(50)
+                                   },
+                           @"Category B":@{
+                                   @"categoryName": @"Category B",
+                                   @"pointPerMeter": @(35),
+                                   @"startAt":@(50),
+                                   @"endAt":@(100)
+                                   },
+                           @"Category C":@{
+                                   @"categoryName": @"Category C",
+                                   @"pointPerMeter": @(40),
+                                   @"startAt":@(100),
+                                   @"endAt":@(150)
+                                   }
+                           };
+    
+    return data;
+}
+
 @end

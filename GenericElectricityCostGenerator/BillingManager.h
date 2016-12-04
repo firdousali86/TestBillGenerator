@@ -10,4 +10,6 @@
 
 @interface BillingManager : NSObject
 
+-(NSDictionary*)getInitialCategoryData;
+
 @end

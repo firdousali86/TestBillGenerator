@@ -7,8 +7,9 @@
 //
 
 #import "SecondViewController.h"
+#import "CategoryTableCell.h"
 
-@interface SecondViewController ()
+@interface SecondViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @end
 
@@ -25,5 +26,39 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - UITABLEVIEWDELEGATE
+
+- (CGFloat)tableView:(UITableView *)tableView
+heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 60;
+}
+
+- (void)tableView:(UITableView *)tableView
+didSelectRowAtIndexPath:(NSIndexPath *)indexPath{}
+
+#pragma mark - UITABLEVIEWDATASOURCE
+
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSString *cellIdentifier = [NSString stringWithFormat:@"cell -%d -%d" ,(int)indexPath.section,(int)indexPath.row];
+    
+    [tableView registerNib:[UINib nibWithNibName:@"CategoryTableCell" bundle:nil] forCellReuseIdentifier:cellIdentifier];
+    CategoryTableCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    
+    if (cell == nil) {
+        cell = [[CategoryTableCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+    }
+    
+    return nil;
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView
+ numberOfRowsInSection:(NSInteger)section{
+    return 5;
+}
 
 @end
