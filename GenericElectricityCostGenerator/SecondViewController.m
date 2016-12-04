@@ -8,16 +8,21 @@
 
 #import "SecondViewController.h"
 #import "CategoryTableCell.h"
+#import "UserDefaultsHelper.h"
 
 @interface SecondViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @end
 
-@implementation SecondViewController
+@implementation SecondViewController{
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 

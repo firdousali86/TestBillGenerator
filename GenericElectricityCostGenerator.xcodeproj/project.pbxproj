@@ -25,6 +25,7 @@
 		87522EA81DF431C5001B14CC /* CategoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522EA71DF431C5001B14CC /* CategoryObject.m */; };
 		87522EAD1DF43464001B14CC /* CategoryTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522EAB1DF43464001B14CC /* CategoryTableCell.m */; };
 		87522EAE1DF43464001B14CC /* CategoryTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87522EAC1DF43464001B14CC /* CategoryTableCell.xib */; };
+		87522EB11DF437DD001B14CC /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87522EB01DF437DD001B14CC /* DataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		87522EAA1DF43464001B14CC /* CategoryTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableCell.h; sourceTree = "<group>"; };
 		87522EAB1DF43464001B14CC /* CategoryTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableCell.m; sourceTree = "<group>"; };
 		87522EAC1DF43464001B14CC /* CategoryTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableCell.xib; sourceTree = "<group>"; };
+		87522EAF1DF437DD001B14CC /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		87522EB01DF437DD001B14CC /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 				87522E601DF42C24001B14CC /* SecondViewController.m */,
 				87522E8C1DF42E4E001B14CC /* BillingManager.h */,
 				87522E8D1DF42E4E001B14CC /* BillingManager.m */,
+				87522EAF1DF437DD001B14CC /* DataManager.h */,
+				87522EB01DF437DD001B14CC /* DataManager.m */,
 				87522E621DF42C24001B14CC /* Main.storyboard */,
 				87522E651DF42C24001B14CC /* Assets.xcassets */,
 				87522E671DF42C24001B14CC /* LaunchScreen.storyboard */,
@@ -370,6 +375,7 @@
 				87522E941DF4300A001B14CC /* UserDefaultsHelper.m in Sources */,
 				87522EA01DF4310A001B14CC /* RNCryptor.m in Sources */,
 				87522EA81DF431C5001B14CC /* CategoryObject.m in Sources */,
+				87522EB11DF437DD001B14CC /* DataManager.m in Sources */,
 				87522E5E1DF42C24001B14CC /* FirstViewController.m in Sources */,
 				87522EA11DF4310A001B14CC /* RNCryptorEngine.m in Sources */,
 				87522EAD1DF43464001B14CC /* CategoryTableCell.m in Sources */,
