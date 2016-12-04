@@ -26,4 +26,6 @@
 }
 
 
+- (IBAction)calculateCostAction:(id)sender {
+}
 @end

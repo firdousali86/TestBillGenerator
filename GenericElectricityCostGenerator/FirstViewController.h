@@ -10,6 +10,10 @@
 
 @interface FirstViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *meterReadingField;
+@property (weak, nonatomic) IBOutlet UITextField *customerNumberField;
+
+- (IBAction)calculateCostAction:(id)sender;
 
 @end
 

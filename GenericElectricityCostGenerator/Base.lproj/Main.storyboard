@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--First-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -17,27 +19,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cy6-QZ-TPY">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current meter reading" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1P-P2-tbi">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sy7-cR-C5a">
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer service number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcV-EU-Qfs">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yw9-v0-sim">
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNd-hq-Jno">
+                                        <state key="normal" title="Calculate Cost"/>
+                                        <connections>
+                                            <action selector="calculateCostAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Yt5-GV-cnB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="wNd-hq-Jno" firstAttribute="leading" secondItem="cy6-QZ-TPY" secondAttribute="leading" id="A20-pd-g3H"/>
+                                    <constraint firstItem="l1P-P2-tbi" firstAttribute="leading" secondItem="cy6-QZ-TPY" secondAttribute="leading" id="A9B-Rc-53D"/>
+                                    <constraint firstItem="yw9-v0-sim" firstAttribute="top" secondItem="AcV-EU-Qfs" secondAttribute="bottom" constant="10" id="EVy-ui-dh1"/>
+                                    <constraint firstItem="AcV-EU-Qfs" firstAttribute="leading" secondItem="cy6-QZ-TPY" secondAttribute="leading" id="FsN-ag-Cp3"/>
+                                    <constraint firstItem="AcV-EU-Qfs" firstAttribute="top" secondItem="Sy7-cR-C5a" secondAttribute="bottom" constant="10" id="HUA-MI-Qzq"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sy7-cR-C5a" secondAttribute="trailing" id="Pb4-3c-JCn"/>
+                                    <constraint firstItem="Sy7-cR-C5a" firstAttribute="leading" secondItem="cy6-QZ-TPY" secondAttribute="leading" id="Tm2-HV-9C5"/>
+                                    <constraint firstAttribute="trailing" secondItem="wNd-hq-Jno" secondAttribute="trailing" id="ZLd-hr-8P1"/>
+                                    <constraint firstAttribute="trailing" secondItem="l1P-P2-tbi" secondAttribute="trailing" id="b9m-FM-OJ3"/>
+                                    <constraint firstAttribute="trailing" secondItem="AcV-EU-Qfs" secondAttribute="trailing" id="hpn-3a-xqx"/>
+                                    <constraint firstAttribute="trailing" secondItem="yw9-v0-sim" secondAttribute="trailing" id="kZz-2c-FYk"/>
+                                    <constraint firstItem="wNd-hq-Jno" firstAttribute="top" secondItem="yw9-v0-sim" secondAttribute="bottom" constant="10" id="ljS-hb-Pxo"/>
+                                    <constraint firstItem="yw9-v0-sim" firstAttribute="leading" secondItem="cy6-QZ-TPY" secondAttribute="leading" id="mNd-Jm-0f7"/>
+                                    <constraint firstItem="l1P-P2-tbi" firstAttribute="top" secondItem="cy6-QZ-TPY" secondAttribute="top" id="y8f-BF-eeu"/>
+                                    <constraint firstItem="Sy7-cR-C5a" firstAttribute="top" secondItem="l1P-P2-tbi" secondAttribute="bottom" constant="10" id="ypz-bb-wSU"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="cy6-QZ-TPY" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="3CR-7o-q8a"/>
+                            <constraint firstItem="cy6-QZ-TPY" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" multiplier="0.8" id="kvg-Re-uoZ"/>
+                            <constraint firstItem="cy6-QZ-TPY" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="wUZ-gv-zTi"/>
+                            <constraint firstItem="cy6-QZ-TPY" firstAttribute="height" secondItem="tsR-hK-woN" secondAttribute="height" multiplier="0.8" id="x73-0q-Ov3"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="customerNumberField" destination="yw9-v0-sim" id="5Ov-OQ-fA2"/>
+                        <outlet property="meterReadingField" destination="Sy7-cR-C5a" id="3CI-2G-Mvh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,7 +89,7 @@
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
